@@ -1,1 +1,1 @@
-Sitemap: https://nmfs-opensci.github.io/NOAA-quarto-simple/sitemap.xml
+Sitemap: https://jobindjohn.github.io/literature-notes/sitemap.xml
