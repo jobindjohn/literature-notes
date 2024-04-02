@@ -1,0 +1,8 @@
+---
+title: Whiplash-associated Disorders
+bibliography: references.bib
+---
+
+## Physical Test Devices
+
+- @Carlsson2021: BioRID P50F - Scaled-down version of BioRID

@@ -3,15 +3,15 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  title: "Notes from Literature" 
+  site-url: "https://jobindjohn.github.io/literature-notes/" 
+  repo-url: "https://github.com/jobindjohn/literature-notes"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-1.0"
+    left: "&copy; CC-BY-4.0"
   
   sidebar:
     background: "#D9E3E4"
@@ -21,11 +21,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://jobindjohn.github.io/literature-notes/
+        text: "Jobin's Literature Notes"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://jobindjohn.github.io/literature-notes/
+        text: "Repository"
 
     style: "docked"
     search: true
@@ -33,16 +33,16 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
-      - href: content/rendering.qmd
-        text: Rendering
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
+      - href: content/whiplash.qmd
+      #   text: Whiplash-associated Disorders
+      # - href: content/customizing.qmd
+      #   text: Customizing
+      # - href: content/rendering.qmd
+      #   text: Rendering
+      # - href: content/rmarkdown.Rmd
+      #   text: R Markdown files
+      # - href: content/code.qmd
+      #   text: Code in your files
       - href: content/acknowledgements.qmd
         text: Acknowledgements
 
