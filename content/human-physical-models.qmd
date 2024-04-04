@@ -1,0 +1,11 @@
+---
+title: Physical Surrogates of Humans
+bibliography: references.bib
+---
+
+
+## Components
+
+### Neck
+
+- @Farmer2022: Loughborough University Surrogate Neck (average male) - modeled as three encapsulated ball joints. 

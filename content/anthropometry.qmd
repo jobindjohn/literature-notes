@@ -1,0 +1,20 @@
+---
+title: Anthropometry
+bibliography: references.bib
+---
+
+## Mathematical Models
+
+- @Hanavan1964: Inertial properties of human body (center of gravity, moments and products of inertia, principal moments, and principal axes) based on 25 anthropometric dimensions (Data from Volunteers)
+
+## Human Experiments
+
+- @Dempster1967: Nine male cadavers, additional samples for upper extremity and lower extremities
+- @Clauser1969: Weight, volume, and center of mass of 14 segments from 13 male cadavers.
+  - @Hinrichs1990: Modifications to Clauser, mass centers calculated based on joint centers instead
+- @McConville1980: Volume and principal moments of inertia from 75 measurements. Compares body segments densities between @Dempster1955 and @Clauser1969
+- @Clarys1994: 3 male and 3 female cadavers. Comprehensive review with existing body segment proportions. Separate proportions for muscles and fat in the upper and lower extremities. Regression to local anthropometry, thus giving an good prediction of the masses.
+
+### Density
+
+- @Erdmann1990: Muscles: 1.1 - 1.2 $g/cm^3$, Lung 0.563, Cortical 1.892 

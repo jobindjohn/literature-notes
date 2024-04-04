@@ -1,0 +1,10 @@
+---
+title: Biomechanics Experiments (Full Body)
+bibliography: references.bib
+---
+
+## Neck
+
+- @McElhaney1988: Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)
+- @Myers1989: Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.
+- @McGill1994: 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.
