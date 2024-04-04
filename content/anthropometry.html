@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Notes from Literature - R Markdown</title>
+<title>Notes from Literature - Anthropometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -63,6 +49,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/whiplash.html" rel="next">
+<link href="../index.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -103,6 +91,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -115,7 +132,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">R Markdown</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/anthropometry.html">Anthropometry</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -153,7 +170,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/anthropometry.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/anthropometry.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Anthropometry</span></a>
   </div>
 </li>
@@ -185,17 +202,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-markdown" id="toc-r-markdown" class="nav-link active" data-scroll-target="#r-markdown">R Markdown</a></li>
-  <li><a href="#including-plots" id="toc-including-plots" class="nav-link" data-scroll-target="#including-plots">Including Plots</a></li>
+  <li><a href="#mathematical-models" id="toc-mathematical-models" class="nav-link active" data-scroll-target="#mathematical-models">Mathematical Models</a></li>
+  <li><a href="#human-experiments" id="toc-human-experiments" class="nav-link" data-scroll-target="#human-experiments">Human Experiments</a>
+  <ul class="collapse">
+  <li><a href="#density" id="toc-density" class="nav-link" data-scroll-target="#density">Density</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jobindjohn/literature-notes/edit/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jobindjohn/literature-notes/blob/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jobindjohn/literature-notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jobindjohn/literature-notes/edit/main/content/anthropometry.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jobindjohn/literature-notes/blob/main/content/anthropometry.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jobindjohn/literature-notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Markdown</h1>
+<h1 class="title">Anthropometry</h1>
 </div>
 
 
@@ -212,42 +232,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>You can include R Markdown files in your project.</p>
-<section id="r-markdown" class="level2">
-<h2 class="anchored" data-anchor-id="r-markdown">R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(cars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  </code></pre>
-</div>
-</div>
+<section id="mathematical-models" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-models">Mathematical Models</h2>
+<ul>
+<li><span class="citation" data-cites="Hanavan1964">Hanavan (<a href="#ref-Hanavan1964" role="doc-biblioref">1964</a>)</span>: Inertial properties of human body (center of gravity, moments and products of inertia, principal moments, and principal axes) based on 25 anthropometric dimensions (Data from Volunteers)</li>
+</ul>
 </section>
-<section id="including-plots" class="level2">
-<h2 class="anchored" data-anchor-id="including-plots">Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="rmarkdown_files/figure-html/pressure-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<section id="human-experiments" class="level2">
+<h2 class="anchored" data-anchor-id="human-experiments">Human Experiments</h2>
+<ul>
+<li><span class="citation" data-cites="Dempster1967">Dempster and Gaughran (<a href="#ref-Dempster1967" role="doc-biblioref">1967</a>)</span>: Nine male cadavers, additional samples for upper extremity and lower extremities</li>
+<li><span class="citation" data-cites="Clauser1969">Clauser, McConville, and Young (<a href="#ref-Clauser1969" role="doc-biblioref">1969</a>)</span>: Weight, volume, and center of mass of 14 segments from 13 male cadavers.
+<ul>
+<li><span class="citation" data-cites="Hinrichs1990">Hinrichs (<a href="#ref-Hinrichs1990" role="doc-biblioref">1990</a>)</span>: Modifications to Clauser, mass centers calculated based on joint centers instead</li>
+</ul></li>
+<li><span class="citation" data-cites="McConville1980">McConville et al. (<a href="#ref-McConville1980" role="doc-biblioref">1980</a>)</span>: Volume and principal moments of inertia from 75 measurements. Compares body segments densities between <span class="citation" data-cites="Dempster1955">(<a href="#ref-Dempster1955" role="doc-biblioref"><strong>Dempster1955?</strong></a>)</span> and <span class="citation" data-cites="Clauser1969">Clauser, McConville, and Young (<a href="#ref-Clauser1969" role="doc-biblioref">1969</a>)</span></li>
+<li><span class="citation" data-cites="Clarys1994">Clarys and Marfell-Jones (<a href="#ref-Clarys1994" role="doc-biblioref">1994</a>)</span>: 3 male and 3 female cadavers. Comprehensive review with existing body segment proportions. Separate proportions for muscles and fat in the upper and lower extremities. Regression to local anthropometry, thus giving an good prediction of the masses.</li>
+</ul>
+<section id="density" class="level3">
+<h3 class="anchored" data-anchor-id="density">Density</h3>
+<ul>
+<li><span class="citation" data-cites="Erdmann1990">Erdmann and Gos (<a href="#ref-Erdmann1990" role="doc-biblioref">1990</a>)</span>: Muscles: 1.1 - 1.2 <span class="math inline">\(g/cm^3\)</span>, Lung 0.563, Cortical 1.892</li>
+</ul>
+
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Clarys1994" class="csl-entry" role="listitem">
+Clarys, J. P., and M. J. Marfell-Jones. 1994. <span>“Soft Tissue Segmentation of the Body and Fractionation of the Upper and Lower Limbs.”</span> <em>Ergonomics</em> 37 (1): 217–29. <a href="https://doi.org/10.1080/00140139408963640">https://doi.org/10.1080/00140139408963640</a>.
+</div>
+<div id="ref-Clauser1969" class="csl-entry" role="listitem">
+Clauser, Charles E., John T. McConville, and J. W. Young. 1969. <span>“Weight, Volume, and Center of Mass of Segments of the Human Body.”</span> AMRL-TR-69-70. Defense Technical Information Center. <a href="https://doi.org/10.21236/ad0710622">https://doi.org/10.21236/ad0710622</a>.
+</div>
+<div id="ref-Dempster1967" class="csl-entry" role="listitem">
+Dempster, Wilfrid Taylor, and George R. L. Gaughran. 1967. <span>“Properties of Body Segments Based on Size and Weight.”</span> <em>American Journal of Anatomy</em> 120 (1): 33–54. <a href="https://doi.org/10.1002/aja.1001200104">https://doi.org/10.1002/aja.1001200104</a>.
+</div>
+<div id="ref-Erdmann1990" class="csl-entry" role="listitem">
+Erdmann, Wlodzimierz S., and Tomasz Gos. 1990. <span>“Density of Trunk Tissues of Young and Medium Age People.”</span> <em>Journal of Biomechanics</em> 23 (9): 945–47. <a href="https://doi.org/10.1016/0021-9290(90)90360-f">https://doi.org/10.1016/0021-9290(90)90360-f</a>.
+</div>
+<div id="ref-Hanavan1964" class="csl-entry" role="listitem">
+Hanavan, E. P. 1964. <span>“<a href="https://www.ncbi.nlm.nih.gov/pubmed/14243640">A Mathematical Model of the Human Body</a>.”</span> <em>AMRL-TR. Aerospace Medical Research Laboratories (U.S.)</em>, no. AMRL-TR-64-102. (October): 1–149.
+</div>
+<div id="ref-Hinrichs1990" class="csl-entry" role="listitem">
+Hinrichs, Richard N. 1990. <span>“Adjustments to the Segment Center of Mass Proportions of Clauser Et Al. (1969).”</span> <em>Journal of Biomechanics</em> 23 (9): 949–51. <a href="https://doi.org/10.1016/0021-9290(90)90361-6">https://doi.org/10.1016/0021-9290(90)90361-6</a>.
+</div>
+<div id="ref-McConville1980" class="csl-entry" role="listitem">
+McConville, John T., Charles E. Clauser, Thomas D. Churchill, Jaime Cuzzi, and Ints Kaleps. 1980. <em>Anthropometric Relationships of Body and Body Segment Moments of Inertia</em>. Defense Technical Information Center. <a href="https://doi.org/10.21236/ada097238">https://doi.org/10.21236/ada097238</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -801,6 +836,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/whiplash.html" class="pagination-link" aria-label="Whiplash-associated Disorders">
+        <span class="nav-page-text">Whiplash-associated Disorders</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -809,7 +856,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jobindjohn/literature-notes/edit/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jobindjohn/literature-notes/blob/main/content/rmarkdown.Rmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jobindjohn/literature-notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jobindjohn/literature-notes/edit/main/content/anthropometry.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jobindjohn/literature-notes/blob/main/content/anthropometry.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jobindjohn/literature-notes/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
