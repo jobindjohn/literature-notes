@@ -5,4 +5,14 @@ bibliography: references.bib
 
 ## Vehicle Occupant
 
+
+### Frontal Impact
+
+- @VivesTorres2021: Low speed frontal with 9 young (18 - 30 yo) and 4 elder (>65 yo) volunteers. 
+    - @Valdano2021: Active Madymo simulations
+
 ### Rear Impact
+
+#### Blunt Impacts
+
+- @Forman2015: Blunt impact on the back (1.5m/s, 3m/s and 5.5m/s) with 97.5 kg hub at T8 level, 4 mid-size cadavers

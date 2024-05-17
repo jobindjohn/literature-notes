@@ -1,0 +1,17 @@
+---
+title: Biomechanics Tissue Experiments
+bibliography: references.bib
+---
+
+## Test Method
+
+- @Alloisio2024: "the width of test specimens influenced the results of axially loaded tissue; vascular wall stiffness was reduced by approximately 40% in specimens with strips 4 mm wide."
+
+
+## Bone
+
+### Cortical Bone
+
+
+### Trabecular Bone
+

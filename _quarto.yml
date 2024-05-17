@@ -39,6 +39,8 @@ website:
         text: Whiplash-associated Disorders
       - href: content/biomechanics-experiments-body-segments.qmd
         text: Experiments on Body Segments
+      - href: content/biomechanics-experiments-Tissues.qmd
+        text: Experiments on Tissues
       # - href: content/customizing.qmd
       #   text: Customizing
       # - href: content/rendering.qmd
