@@ -10,163 +10,6 @@
     ]
   },
   {
-    "objectID": "content/acknowledgements.html",
-    "href": "content/acknowledgements.html",
-    "title": "Acknowledgments",
-    "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
-    "crumbs": [
-      "Acknowledgements"
-    ]
-  },
-  {
-    "objectID": "content/rendering.html",
-    "href": "content/rendering.html",
-    "title": "Rendering",
-    "section": "",
-    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
-  },
-  {
-    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "title": "Rendering",
-    "section": "Step 1. Make sure you have a recent RStudio",
-    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
-  },
-  {
-    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "title": "Rendering",
-    "section": "Step 2. Clone and create RStudio project",
-    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
-  },
-  {
-    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
-    "href": "content/rendering.html#step-3.-render-within-rstudio",
-    "title": "Rendering",
-    "section": "Step 3. Render within RStudio",
-    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
-  },
-  {
-    "objectID": "content/whiplash.html",
-    "href": "content/whiplash.html",
-    "title": "Whiplash-associated Disorders",
-    "section": "",
-    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
-    "crumbs": [
-      "Whiplash-associated Disorders"
-    ]
-  },
-  {
-    "objectID": "content/whiplash.html#physical-test-devices",
-    "href": "content/whiplash.html#physical-test-devices",
-    "title": "Whiplash-associated Disorders",
-    "section": "",
-    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
-    "crumbs": [
-      "Whiplash-associated Disorders"
-    ]
-  },
-  {
-    "objectID": "content/anthropometry.html",
-    "href": "content/anthropometry.html",
-    "title": "Anthropometry",
-    "section": "",
-    "text": "Hanavan (1964): Inertial properties of human body (center of gravity, moments and products of inertia, principal moments, and principal axes) based on 25 anthropometric dimensions (Data from Volunteers)",
-    "crumbs": [
-      "Anthropometry"
-    ]
-  },
-  {
-    "objectID": "content/anthropometry.html#mathematical-models",
-    "href": "content/anthropometry.html#mathematical-models",
-    "title": "Anthropometry",
-    "section": "",
-    "text": "Hanavan (1964): Inertial properties of human body (center of gravity, moments and products of inertia, principal moments, and principal axes) based on 25 anthropometric dimensions (Data from Volunteers)",
-    "crumbs": [
-      "Anthropometry"
-    ]
-  },
-  {
-    "objectID": "content/anthropometry.html#human-experiments",
-    "href": "content/anthropometry.html#human-experiments",
-    "title": "Anthropometry",
-    "section": "Human Experiments",
-    "text": "Human Experiments\n\nDempster and Gaughran (1967): Nine male cadavers, additional samples for upper extremity and lower extremities\nClauser, McConville, and Young (1969): Weight, volume, and center of mass of 14 segments from 13 male cadavers.\n\nHinrichs (1990): Modifications to Clauser, mass centers calculated based on joint centers instead\n\nMcConville et al. (1980): Volume and principal moments of inertia from 75 measurements. Compares body segments densities between (Dempster1955?) and Clauser, McConville, and Young (1969)\nClarys and Marfell-Jones (1994): 3 male and 3 female cadavers. Comprehensive review with existing body segment proportions. Separate proportions for muscles and fat in the upper and lower extremities. Regression to local anthropometry, thus giving an good prediction of the masses.\n\n\nDensity\n\nErdmann and Gos (1990): Muscles: 1.1 - 1.2 \\(g/cm^3\\), Lung 0.563, Cortical 1.892",
-    "crumbs": [
-      "Anthropometry"
-    ]
-  },
-  {
-    "objectID": "content/biomechanics-experiments-body-segments.html",
-    "href": "content/biomechanics-experiments-body-segments.html",
-    "title": "Biomechanics Experiments (Full Body)",
-    "section": "",
-    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.",
-    "crumbs": [
-      "Experiments on Body Segments"
-    ]
-  },
-  {
-    "objectID": "content/biomechanics-experiments-body-segments.html#neck",
-    "href": "content/biomechanics-experiments-body-segments.html#neck",
-    "title": "Biomechanics Experiments (Full Body)",
-    "section": "",
-    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.",
-    "crumbs": [
-      "Experiments on Body Segments"
-    ]
-  },
-  {
-    "objectID": "content/rmarkdown.html",
-    "href": "content/rmarkdown.html",
-    "title": "R Markdown",
-    "section": "",
-    "text": "You can include R Markdown files in your project."
-  },
-  {
-    "objectID": "content/rmarkdown.html#r-markdown",
-    "href": "content/rmarkdown.html#r-markdown",
-    "title": "R Markdown",
-    "section": "R Markdown",
-    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
-  },
-  {
-    "objectID": "content/rmarkdown.html#including-plots",
-    "href": "content/rmarkdown.html#including-plots",
-    "title": "R Markdown",
-    "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
-  },
-  {
-    "objectID": "content/publishing.html",
-    "href": "content/publishing.html",
-    "title": "Publishing",
-    "section": "",
-    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
-  },
-  {
-    "objectID": "content/publishing.html#turn-on-github-pages-for-your-repo",
-    "href": "content/publishing.html#turn-on-github-pages-for-your-repo",
-    "title": "Publishing",
-    "section": "Turn on GitHub Pages for your repo",
-    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
-  },
-  {
-    "objectID": "content/publishing.html#do-your-first-publish-to-gh-pages",
-    "href": "content/publishing.html#do-your-first-publish-to-gh-pages",
-    "title": "Publishing",
-    "section": "Do your first publish to gh-pages",
-    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
-  },
-  {
-    "objectID": "content/publishing.html#dont-like-using-gh-pages",
-    "href": "content/publishing.html#dont-like-using-gh-pages",
-    "title": "Publishing",
-    "section": "Don’t like using gh-pages?",
-    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
-  },
-  {
     "objectID": "content/customizing.html",
     "href": "content/customizing.html",
     "title": "Customization",
@@ -209,6 +52,177 @@
     "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
   },
   {
+    "objectID": "content/anthropometry.html",
+    "href": "content/anthropometry.html",
+    "title": "Anthropometry",
+    "section": "",
+    "text": "Hanavan (1964): Inertial properties of human body (center of gravity, moments and products of inertia, principal moments, and principal axes) based on 25 anthropometric dimensions (Data from Volunteers)",
+    "crumbs": [
+      "Anthropometry"
+    ]
+  },
+  {
+    "objectID": "content/anthropometry.html#mathematical-models",
+    "href": "content/anthropometry.html#mathematical-models",
+    "title": "Anthropometry",
+    "section": "",
+    "text": "Hanavan (1964): Inertial properties of human body (center of gravity, moments and products of inertia, principal moments, and principal axes) based on 25 anthropometric dimensions (Data from Volunteers)",
+    "crumbs": [
+      "Anthropometry"
+    ]
+  },
+  {
+    "objectID": "content/anthropometry.html#human-experiments",
+    "href": "content/anthropometry.html#human-experiments",
+    "title": "Anthropometry",
+    "section": "Human Experiments",
+    "text": "Human Experiments\n\nDempster and Gaughran (1967): Nine male cadavers, additional samples for upper extremity and lower extremities\nClauser, McConville, and Young (1969): Weight, volume, and center of mass of 14 segments from 13 male cadavers.\n\nHinrichs (1990): Modifications to Clauser, mass centers calculated based on joint centers instead\n\nMcConville et al. (1980): Volume and principal moments of inertia from 75 measurements. Compares body segments densities between (Dempster1955?) and Clauser, McConville, and Young (1969)\nClarys and Marfell-Jones (1994): 3 male and 3 female cadavers. Comprehensive review with existing body segment proportions. Separate proportions for muscles and fat in the upper and lower extremities. Regression to local anthropometry, thus giving an good prediction of the masses.\n\n\nDensity\n\nErdmann and Gos (1990): Muscles: 1.1 - 1.2 \\(g/cm^3\\), Lung 0.563, Cortical 1.892",
+    "crumbs": [
+      "Anthropometry"
+    ]
+  },
+  {
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "content/rendering.html",
+    "href": "content/rendering.html",
+    "title": "Rendering",
+    "section": "",
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
+  },
+  {
+    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
+  },
+  {
+    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
+  },
+  {
+    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
+    "href": "content/rendering.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
+  },
+  {
+    "objectID": "content/publishing.html",
+    "href": "content/publishing.html",
+    "title": "Publishing",
+    "section": "",
+    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
+  },
+  {
+    "objectID": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "href": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "title": "Publishing",
+    "section": "Turn on GitHub Pages for your repo",
+    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
+  },
+  {
+    "objectID": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "href": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "title": "Publishing",
+    "section": "Do your first publish to gh-pages",
+    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
+  },
+  {
+    "objectID": "content/publishing.html#dont-like-using-gh-pages",
+    "href": "content/publishing.html#dont-like-using-gh-pages",
+    "title": "Publishing",
+    "section": "Don’t like using gh-pages?",
+    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
+  },
+  {
+    "objectID": "content/biomechanics-experiments-full-body.html",
+    "href": "content/biomechanics-experiments-full-body.html",
+    "title": "Biomechanics Experiments for Safety and Crash Worthiness",
+    "section": "",
+    "text": "Vives-Torres et al. (2021): Low speed frontal with 9 young (18 - 30 yo) and 4 elder (&gt;65 yo) volunteers.\n\nValdano et al. (2021): Active Madymo simulations\n\n\n\n\n\n\n\n\nForman et al. (2015): Blunt impact on the back (1.5m/s, 3m/s and 5.5m/s) with 97.5 kg hub at T8 level, 4 mid-size cadavers"
+  },
+  {
+    "objectID": "content/biomechanics-experiments-full-body.html#vehicle-occupant",
+    "href": "content/biomechanics-experiments-full-body.html#vehicle-occupant",
+    "title": "Biomechanics Experiments for Safety and Crash Worthiness",
+    "section": "",
+    "text": "Vives-Torres et al. (2021): Low speed frontal with 9 young (18 - 30 yo) and 4 elder (&gt;65 yo) volunteers.\n\nValdano et al. (2021): Active Madymo simulations\n\n\n\n\n\n\n\n\nForman et al. (2015): Blunt impact on the back (1.5m/s, 3m/s and 5.5m/s) with 97.5 kg hub at T8 level, 4 mid-size cadavers"
+  },
+  {
+    "objectID": "content/biomechanics-experiments-tissues.html",
+    "href": "content/biomechanics-experiments-tissues.html",
+    "title": "Biomechanics Tissue Experiments",
+    "section": "",
+    "text": "Alloisio, Wolffs, and Gasser (2024): “the width of test specimens influenced the results of axially loaded tissue; vascular wall stiffness was reduced by approximately 40% in specimens with strips 4 mm wide.”"
+  },
+  {
+    "objectID": "content/biomechanics-experiments-tissues.html#test-method",
+    "href": "content/biomechanics-experiments-tissues.html#test-method",
+    "title": "Biomechanics Tissue Experiments",
+    "section": "",
+    "text": "Alloisio, Wolffs, and Gasser (2024): “the width of test specimens influenced the results of axially loaded tissue; vascular wall stiffness was reduced by approximately 40% in specimens with strips 4 mm wide.”"
+  },
+  {
+    "objectID": "content/biomechanics-experiments-tissues.html#bone",
+    "href": "content/biomechanics-experiments-tissues.html#bone",
+    "title": "Biomechanics Tissue Experiments",
+    "section": "Bone",
+    "text": "Bone\n\nCortical Bone"
+  },
+  {
+    "objectID": "content/whiplash.html",
+    "href": "content/whiplash.html",
+    "title": "Whiplash-associated Disorders",
+    "section": "",
+    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
+    "crumbs": [
+      "Whiplash-associated Disorders"
+    ]
+  },
+  {
+    "objectID": "content/whiplash.html#physical-test-devices",
+    "href": "content/whiplash.html#physical-test-devices",
+    "title": "Whiplash-associated Disorders",
+    "section": "",
+    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
+    "crumbs": [
+      "Whiplash-associated Disorders"
+    ]
+  },
+  {
+    "objectID": "content/biomechanics-experiments-body-segments.html",
+    "href": "content/biomechanics-experiments-body-segments.html",
+    "title": "Biomechanics Experiments (Full Body)",
+    "section": "",
+    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.",
+    "crumbs": [
+      "Experiments on Body Segments"
+    ]
+  },
+  {
+    "objectID": "content/biomechanics-experiments-body-segments.html#neck",
+    "href": "content/biomechanics-experiments-body-segments.html#neck",
+    "title": "Biomechanics Experiments (Full Body)",
+    "section": "",
+    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.",
+    "crumbs": [
+      "Experiments on Body Segments"
+    ]
+  },
+  {
     "objectID": "content/human-physical-models.html",
     "href": "content/human-physical-models.html",
     "title": "Physical Surrogates of Humans",
@@ -221,5 +235,26 @@
     "title": "Physical Surrogates of Humans",
     "section": "",
     "text": "Farmer et al. (2022): Loughborough University Surrogate Neck (average male) - modeled as three encapsulated ball joints."
+  },
+  {
+    "objectID": "content/rmarkdown.html",
+    "href": "content/rmarkdown.html",
+    "title": "R Markdown",
+    "section": "",
+    "text": "You can include R Markdown files in your project."
+  },
+  {
+    "objectID": "content/rmarkdown.html#r-markdown",
+    "href": "content/rmarkdown.html#r-markdown",
+    "title": "R Markdown",
+    "section": "R Markdown",
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "content/rmarkdown.html#including-plots",
+    "href": "content/rmarkdown.html#including-plots",
+    "title": "R Markdown",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
   }
 ]

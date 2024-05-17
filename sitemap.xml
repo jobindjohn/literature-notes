@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jobindjohn.github.io/literature-notes/index.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/acknowledgements.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/rendering.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/whiplash.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/anthropometry.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/biomechanics-experiments-body-segments.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/biomechanics-experiments-full-body.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/rmarkdown.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jobindjohn.github.io/literature-notes/content/publishing.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
   </url>
   <url>
     <loc>https://jobindjohn.github.io/literature-notes/content/customizing.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
   </url>
   <url>
     <loc>https://jobindjohn.github.io/literature-notes/content/code.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/anthropometry.html</loc>
+    <lastmod>2024-05-17T13:18:02.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/acknowledgements.html</loc>
+    <lastmod>2024-05-17T13:18:02.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/rendering.html</loc>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/publishing.html</loc>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/biomechanics-experiments-full-body.html</loc>
+    <lastmod>2024-05-17T13:18:02.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/biomechanics-experiments-tissues.html</loc>
+    <lastmod>2024-05-17T13:18:02.914Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/whiplash.html</loc>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/biomechanics-experiments-body-segments.html</loc>
+    <lastmod>2024-05-17T13:18:02.914Z</lastmod>
   </url>
   <url>
     <loc>https://jobindjohn.github.io/literature-notes/content/human-physical-models.html</loc>
-    <lastmod>2024-04-04T20:28:51.510Z</lastmod>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jobindjohn.github.io/literature-notes/content/rmarkdown.html</loc>
+    <lastmod>2024-05-17T13:18:02.918Z</lastmod>
   </url>
 </urlset>
