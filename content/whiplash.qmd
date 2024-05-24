@@ -1,6 +1,6 @@
 ---
 title: Whiplash-associated Disorders
-bibliography: references.bib
+bibliography: literature-notes-references.bib
 ---
 
 ## Physical Test Devices

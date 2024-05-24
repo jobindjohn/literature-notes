@@ -1,6 +1,6 @@
 ---
 title: Biomechanics Experiments for Safety and Crash Worthiness
-bibliography: references.bib
+bibliography: literature-notes-references.bib
 ---
 
 ## Vehicle Occupant

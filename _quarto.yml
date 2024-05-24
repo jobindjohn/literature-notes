@@ -15,10 +15,10 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
-    favicon: images/favicon.ico
-    pinned: true
-    align: center
+    # logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    # favicon: images/favicon.ico
+    # pinned: true
+    # align: center
     tools: 
       - icon: globe
         href: https://jobindjohn.github.io/literature-notes/

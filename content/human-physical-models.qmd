@@ -1,6 +1,6 @@
 ---
 title: Physical Surrogates of Humans
-bibliography: references.bib
+bibliography: literature-notes-references.bib
 ---
 
 

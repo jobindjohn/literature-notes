@@ -1,6 +1,6 @@
 ---
 title: Biomechanics Tissue Experiments
-bibliography: references.bib
+bibliography: literature-notes-references.bib
 ---
 
 ## Test Method

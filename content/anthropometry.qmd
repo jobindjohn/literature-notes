@@ -1,6 +1,6 @@
 ---
 title: Anthropometry
-bibliography: references.bib
+bibliography: literature-notes-references.bib
 ---
 
 ## Mathematical Models
