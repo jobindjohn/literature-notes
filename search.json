@@ -31,25 +31,34 @@
     "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
   },
   {
-    "objectID": "content/code.html",
-    "href": "content/code.html",
-    "title": "Rendering with Code",
+    "objectID": "content/biomechanics-neck.html",
+    "href": "content/biomechanics-neck.html",
+    "title": "Neck Biomechanics",
     "section": "",
-    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.\nNightingale et al. (1996): whole unembalmed heads and cervical spines drop at 3.2 ms−1\n\n\n\n\nNightingale et al. (2007): 41 male spinal segments (O–C2, C4–C5, C6–C7) in a pure-moment\nMuth-seng et al. (2019): 9 cadaveric cervical FSUs loaded under 10 Nm flexion moment, relative vertebral and facet rotations and displacements assessed using radio-opaque markers implanted in each vertebra. Cf. Wang et al. (2020)",
+    "crumbs": [
+      "Neck"
+    ]
   },
   {
-    "objectID": "content/code.html#modify-the-github-action",
-    "href": "content/code.html#modify-the-github-action",
-    "title": "Rendering with Code",
-    "section": "Modify the GitHub Action",
-    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+    "objectID": "content/biomechanics-neck.html#neck",
+    "href": "content/biomechanics-neck.html#neck",
+    "title": "Neck Biomechanics",
+    "section": "",
+    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.\nNightingale et al. (1996): whole unembalmed heads and cervical spines drop at 3.2 ms−1\n\n\n\n\nNightingale et al. (2007): 41 male spinal segments (O–C2, C4–C5, C6–C7) in a pure-moment\nMuth-seng et al. (2019): 9 cadaveric cervical FSUs loaded under 10 Nm flexion moment, relative vertebral and facet rotations and displacements assessed using radio-opaque markers implanted in each vertebra. Cf. Wang et al. (2020)",
+    "crumbs": [
+      "Neck"
+    ]
   },
   {
-    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "title": "Rendering with Code",
-    "section": "Render locally and publish to gh-pages branch",
-    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
+    "objectID": "content/biomechanics-neck.html#invivo-motion-studies",
+    "href": "content/biomechanics-neck.html#invivo-motion-studies",
+    "title": "Neck Biomechanics",
+    "section": "Invivo Motion studies",
+    "text": "Invivo Motion studies\n\nYu et al. (2019): 10 asymptomatic subjects imaged using MRI and dual fluoroscopic imaging techniques during extension-flexion and axial left-right rotation. Intervertebral segment CORs and ROMs measured from C34 to C67.\nWang et al. (2020): Intervertebral discs and facet joint kinematics. Cf. Muth-seng et al. (2019)\nGuo et al. (2021): 8 female asymptomatic subjects, Kinematics of the entire head-neck complex (C0-T1) during head axial rotation using a dual fluoroscopic imaging\nZhang et al. (2024): 20 asymptomatic subjects, center of rotation (COR) for C2-C7 segments measured using cone beam computed tomography (CBCT)\nZhou et al. (2020): C0-T1 kinematics\nZhou, Li, et al. (2021): Invivo cervical spine kinematics during walking\nSchuermans et al. (2024): “aging is associated with loss of the consistent motion pattern that was observed in young asymptomatic individuals”\nQu et al. (2024): “Changes in cervical sagittal alignment alter both the quality and quantity of the individual joint motions” Cf. Schuermans et al. (2024)\n\n. Lindenmann et al. (2022): [Review] Kinematics in Healthy and Degenerative Conditions\n\nLigaments\n\nUpper Cervical Spine\n\nIwanaga et al. (2017): Tensile strength of alar ligaments. Sex Differences\nIshak et al. (2021): Alar Ligament, mean failure force 394N +- 52 N\nZhou, Guo, et al. (2021): UCS Ligament deformation during axial rotation (biplane fluroscope)\nLorente et al. (2022): Kinematics before and after alar ligament transection\n\n\n\n\nIntervertebral Discs\n\nWilson et al. (2021): spatial patterns of deformation (displacements, strain) in adjacent IVDs using dualMRI (displacements under applied loading by MRI) during flexion–extension",
+    "crumbs": [
+      "Neck"
+    ]
   },
   {
     "objectID": "content/anthropometry.html",
@@ -82,42 +91,74 @@
     ]
   },
   {
-    "objectID": "content/acknowledgements.html",
-    "href": "content/acknowledgements.html",
-    "title": "Acknowledgments",
+    "objectID": "content/whiplash.html",
+    "href": "content/whiplash.html",
+    "title": "Whiplash-associated Disorders",
     "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
     "crumbs": [
-      "Acknowledgements"
+      "Whiplash-associated Disorders"
     ]
   },
   {
-    "objectID": "content/rendering.html",
-    "href": "content/rendering.html",
-    "title": "Rendering",
+    "objectID": "content/whiplash.html#physical-test-devices",
+    "href": "content/whiplash.html#physical-test-devices",
+    "title": "Whiplash-associated Disorders",
     "section": "",
-    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
+    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
+    "crumbs": [
+      "Whiplash-associated Disorders"
+    ]
   },
   {
-    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "title": "Rendering",
-    "section": "Step 1. Make sure you have a recent RStudio",
-    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
+    "objectID": "content/biomechanics-experiments-tissues.html",
+    "href": "content/biomechanics-experiments-tissues.html",
+    "title": "Biomechanics Tissue Experiments",
+    "section": "",
+    "text": "Alloisio, Wolffs, and Gasser (2024): “the width of test specimens influenced the results of axially loaded tissue; vascular wall stiffness was reduced by approximately 40% in specimens with strips 4 mm wide.”",
+    "crumbs": [
+      "Experiments on Tissues"
+    ]
   },
   {
-    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "title": "Rendering",
-    "section": "Step 2. Clone and create RStudio project",
-    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
+    "objectID": "content/biomechanics-experiments-tissues.html#test-method",
+    "href": "content/biomechanics-experiments-tissues.html#test-method",
+    "title": "Biomechanics Tissue Experiments",
+    "section": "",
+    "text": "Alloisio, Wolffs, and Gasser (2024): “the width of test specimens influenced the results of axially loaded tissue; vascular wall stiffness was reduced by approximately 40% in specimens with strips 4 mm wide.”",
+    "crumbs": [
+      "Experiments on Tissues"
+    ]
   },
   {
-    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
-    "href": "content/rendering.html#step-3.-render-within-rstudio",
-    "title": "Rendering",
-    "section": "Step 3. Render within RStudio",
-    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
+    "objectID": "content/biomechanics-experiments-tissues.html#bone",
+    "href": "content/biomechanics-experiments-tissues.html#bone",
+    "title": "Biomechanics Tissue Experiments",
+    "section": "Bone",
+    "text": "Bone\n\nCortical Bone",
+    "crumbs": [
+      "Experiments on Tissues"
+    ]
+  },
+  {
+    "objectID": "content/biomechanics-experiments-full-body.html",
+    "href": "content/biomechanics-experiments-full-body.html",
+    "title": "Biomechanics Experiments for Safety and Crash Worthiness",
+    "section": "",
+    "text": "Vives-Torres et al. (2021): Low speed frontal with 9 young (18 - 30 yo) and 4 elder (&gt;65 yo) volunteers.\n\nValdano et al. (2021): Active Madymo simulations\n\n\n\n\n\n\n\n\nForman et al. (2015): Blunt impact on the back (1.5m/s, 3m/s and 5.5m/s) with 97.5 kg hub at T8 level, 4 mid-size cadavers",
+    "crumbs": [
+      "Whole Body Responses"
+    ]
+  },
+  {
+    "objectID": "content/biomechanics-experiments-full-body.html#vehicle-occupant",
+    "href": "content/biomechanics-experiments-full-body.html#vehicle-occupant",
+    "title": "Biomechanics Experiments for Safety and Crash Worthiness",
+    "section": "",
+    "text": "Vives-Torres et al. (2021): Low speed frontal with 9 young (18 - 30 yo) and 4 elder (&gt;65 yo) volunteers.\n\nValdano et al. (2021): Active Madymo simulations\n\n\n\n\n\n\n\n\nForman et al. (2015): Blunt impact on the back (1.5m/s, 3m/s and 5.5m/s) with 97.5 kg hub at T8 level, 4 mid-size cadavers",
+    "crumbs": [
+      "Whole Body Responses"
+    ]
   },
   {
     "objectID": "content/publishing.html",
@@ -148,79 +189,77 @@
     "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
   },
   {
-    "objectID": "content/biomechanics-experiments-full-body.html",
-    "href": "content/biomechanics-experiments-full-body.html",
-    "title": "Biomechanics Experiments for Safety and Crash Worthiness",
+    "objectID": "content/rendering.html",
+    "href": "content/rendering.html",
+    "title": "Rendering",
     "section": "",
-    "text": "Vives-Torres et al. (2021): Low speed frontal with 9 young (18 - 30 yo) and 4 elder (&gt;65 yo) volunteers.\n\nValdano et al. (2021): Active Madymo simulations\n\n\n\n\n\n\n\n\nForman et al. (2015): Blunt impact on the back (1.5m/s, 3m/s and 5.5m/s) with 97.5 kg hub at T8 level, 4 mid-size cadavers"
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
   },
   {
-    "objectID": "content/biomechanics-experiments-full-body.html#vehicle-occupant",
-    "href": "content/biomechanics-experiments-full-body.html#vehicle-occupant",
-    "title": "Biomechanics Experiments for Safety and Crash Worthiness",
-    "section": "",
-    "text": "Vives-Torres et al. (2021): Low speed frontal with 9 young (18 - 30 yo) and 4 elder (&gt;65 yo) volunteers.\n\nValdano et al. (2021): Active Madymo simulations\n\n\n\n\n\n\n\n\nForman et al. (2015): Blunt impact on the back (1.5m/s, 3m/s and 5.5m/s) with 97.5 kg hub at T8 level, 4 mid-size cadavers"
+    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
   },
   {
-    "objectID": "content/biomechanics-experiments-tissues.html",
-    "href": "content/biomechanics-experiments-tissues.html",
-    "title": "Biomechanics Tissue Experiments",
-    "section": "",
-    "text": "Alloisio, Wolffs, and Gasser (2024): “the width of test specimens influenced the results of axially loaded tissue; vascular wall stiffness was reduced by approximately 40% in specimens with strips 4 mm wide.”"
+    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
   },
   {
-    "objectID": "content/biomechanics-experiments-tissues.html#test-method",
-    "href": "content/biomechanics-experiments-tissues.html#test-method",
-    "title": "Biomechanics Tissue Experiments",
-    "section": "",
-    "text": "Alloisio, Wolffs, and Gasser (2024): “the width of test specimens influenced the results of axially loaded tissue; vascular wall stiffness was reduced by approximately 40% in specimens with strips 4 mm wide.”"
+    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
+    "href": "content/rendering.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
   },
   {
-    "objectID": "content/biomechanics-experiments-tissues.html#bone",
-    "href": "content/biomechanics-experiments-tissues.html#bone",
-    "title": "Biomechanics Tissue Experiments",
-    "section": "Bone",
-    "text": "Bone\n\nCortical Bone"
-  },
-  {
-    "objectID": "content/whiplash.html",
-    "href": "content/whiplash.html",
-    "title": "Whiplash-associated Disorders",
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
     "section": "",
-    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
     "crumbs": [
-      "Whiplash-associated Disorders"
+      "Acknowledgements"
     ]
   },
   {
-    "objectID": "content/whiplash.html#physical-test-devices",
-    "href": "content/whiplash.html#physical-test-devices",
-    "title": "Whiplash-associated Disorders",
+    "objectID": "content/biomechanics-sex-differences.html",
+    "href": "content/biomechanics-sex-differences.html",
+    "title": "Sex-differences in Biomechanics",
     "section": "",
-    "text": "Carlsson et al. (2021): BioRID P50F - Scaled-down version of BioRID",
-    "crumbs": [
-      "Whiplash-associated Disorders"
-    ]
+    "text": "Ligament properties\n\nAlar ligaments Iwanaga et al. (2017)"
   },
   {
-    "objectID": "content/biomechanics-experiments-body-segments.html",
-    "href": "content/biomechanics-experiments-body-segments.html",
-    "title": "Biomechanics Experiments (Full Body)",
+    "objectID": "content/biomechanics-sex-differences.html#neck",
+    "href": "content/biomechanics-sex-differences.html#neck",
+    "title": "Sex-differences in Biomechanics",
     "section": "",
-    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.\nNightingale et al. (1996): whole unembalmed heads and cervical spines drop at 3.2 ms−1\n\n\n\n\nNightingale et al. (2007): 41 male spinal segments (O–C2, C4–C5, C6–C7) in a pure-moment\nMuth-seng et al. (2019): 9 cadaveric cervical FSUs loaded under 10 Nm flexion moment, relative vertebral and facet rotations and displacements assessed using radio-opaque markers implanted in each vertebra",
-    "crumbs": [
-      "Experiments on Body Segments"
-    ]
+    "text": "Ligament properties\n\nAlar ligaments Iwanaga et al. (2017)"
   },
   {
-    "objectID": "content/biomechanics-experiments-body-segments.html#neck",
-    "href": "content/biomechanics-experiments-body-segments.html#neck",
-    "title": "Biomechanics Experiments (Full Body)",
+    "objectID": "content/code.html",
+    "href": "content/code.html",
+    "title": "Rendering with Code",
     "section": "",
-    "text": "McElhaney et al. (1988): Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)\nMyers et al. (1989): Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.\nMcGill et al. (1994): 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.\nNightingale et al. (1996): whole unembalmed heads and cervical spines drop at 3.2 ms−1\n\n\n\n\nNightingale et al. (2007): 41 male spinal segments (O–C2, C4–C5, C6–C7) in a pure-moment\nMuth-seng et al. (2019): 9 cadaveric cervical FSUs loaded under 10 Nm flexion moment, relative vertebral and facet rotations and displacements assessed using radio-opaque markers implanted in each vertebra",
-    "crumbs": [
-      "Experiments on Body Segments"
-    ]
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+  },
+  {
+    "objectID": "content/code.html#modify-the-github-action",
+    "href": "content/code.html#modify-the-github-action",
+    "title": "Rendering with Code",
+    "section": "Modify the GitHub Action",
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+  },
+  {
+    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "title": "Rendering with Code",
+    "section": "Render locally and publish to gh-pages branch",
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
   },
   {
     "objectID": "content/human-physical-models.html",
