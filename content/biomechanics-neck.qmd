@@ -1,0 +1,46 @@
+---
+title: Neck Biomechanics
+bibliography: neck-references.bib
+---
+
+## Neck
+
+- @McElhaney1988: Constant velocity tests (also upto failure). C1-T1. Two boundary conditions for constant velocity - pinned-pinned and fixed-pinned. Compared with Hybrid III. Moment-rotation curves (also upto failure)
+- @Myers1989: Cervical spine torsion. 6 full cervical spine and 6 lower spine tests.
+- @McGill1994: 40 males, 19 female volunteers (university student population). Flexion, extension, lateral bending.
+- @Nightingale1996: whole unembalmed heads and cervical spines drop at 3.2 ms−1
+
+### Cervical Spine Segments
+
+
+- @Nightingale2007: 41 male spinal segments (O–C2, C4–C5, C6–C7) in a pure-moment
+- @Muthseng2019: 9 cadaveric cervical FSUs loaded under 10 Nm **flexion** moment, relative vertebral and **facet rotations and displacements** assessed using radio-opaque markers implanted in each vertebra. Cf. @Wang2020
+
+
+## Invivo Motion studies
+
+- @Yu2019: 10 asymptomatic subjects imaged using MRI and dual fluoroscopic imaging techniques during extension-flexion and axial left-right rotation. Intervertebral segment CORs and ROMs measured from C34 to C67.
+- @Wang2020: Intervertebral discs and facet joint kinematics. Cf. @Muthseng2019
+- @Guo2021: 8 female asymptomatic subjects, Kinematics of the entire head-neck complex (C0-T1) during head axial rotation using a dual fluoroscopic imaging
+- @Zhang2024: 20 asymptomatic subjects, center of rotation (COR) for C2-C7 segments measured using cone beam computed tomography (CBCT)
+- @Zhou2020: C0-T1 kinematics 
+- @Zhou2021: Invivo cervical spine kinematics during walking
+- @Schuermans2024: "aging is associated with loss of the consistent motion pattern that was observed in young asymptomatic individuals"
+- @Qu2024: "Changes in cervical sagittal alignment alter both the quality and quantity of the individual joint motions" Cf. @Schuermans2024
+
+. @Lindenmann2022: [Review] Kinematics in Healthy and Degenerative Conditions
+
+
+### Ligaments
+
+
+#### Upper Cervical Spine
+
+- @Iwanaga2017: Tensile strength of alar ligaments. [Sex Differences](./biomechanics-sex-differences.qmd)
+- @Ishak2021: Alar Ligament, mean failure force 394N +- 52 N
+- @Zhou2021a: UCS Ligament deformation during axial rotation (biplane fluroscope)
+- @Lorente2022: Kinematics before and after alar ligament transection
+
+### Intervertebral Discs
+
+- @Wilson2021: spatial patterns of deformation (displacements, strain) in adjacent IVDs using dualMRI (displacements under applied loading by MRI) during flexion–extension

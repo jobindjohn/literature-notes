@@ -1,0 +1,12 @@
+---
+title: Sex-differences in Biomechanics
+bibliography: 
+    - literature-notes-references.bib
+    - neck-references.bib
+---
+
+
+## Neck
+
+- Ligament properties
+  - Alar ligaments @Iwanaga2017

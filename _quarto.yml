@@ -37,9 +37,11 @@ website:
         text: Anthropometry
       - href: content/whiplash.qmd
         text: Whiplash-associated Disorders
-      - href: content/biomechanics-experiments-body-segments.qmd
-        text: Experiments on Body Segments
-      - href: content/biomechanics-experiments-Tissues.qmd
+      - href: content/biomechanics-neck.qmd
+        text: Neck
+      - href: content/biomechanics-experiments-full-body.qmd
+        text: Whole Body Responses
+      - href: content/biomechanics-experiments-tissues.qmd
         text: Experiments on Tissues
       # - href: content/customizing.qmd
       #   text: Customizing
